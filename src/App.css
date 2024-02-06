@@ -19,6 +19,10 @@ body {
   box-shadow: 0 10px 20px rgba(236, 233, 233, 0.1);
   overflow-y: auto;
   max-height: 500px;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 h1, h2 {
@@ -78,18 +82,6 @@ audio {
   outline: none;
   border-radius: 8px;
 }
-
-/* .button {
-  color: #ffffff;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 8px;
-  font-size: 18px;
-  transition: 0.3s ease;
-  margin-left: 10px;
-} */
 
 .play-btn:hover {
   background-color: #1a3caa;
